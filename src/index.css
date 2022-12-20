@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.col-style{
+    @apply h-btn-height grid place-items-center;
+}
+.code-style{
+    @apply bg-gray-300 p-2 rounded-xl drop-shadow-lg font-bold;
+}
